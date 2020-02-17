@@ -31,13 +31,13 @@ module "dns_record" {
 
   has_dns_a_record      = "..."
 
-# The following parameters must be used if the variable `has_dns_a_record` is equal to `true`.
+# The following parameters must be used if the variable has_dns_a_record is equal to `true`.
   dns_a_record_name     = "..."
   dns_a_record_value    = "..."
 
   has_dns_cname_record  = "..." 
 
-# The following parameters must be used if the variable `has_dns_cname_record` is equal to `true`.
+# The following parameters must be used if the variable has_dns_cname_record is equal to `true`.
 
   dns_cname_record_name = "..."
   dns_cname_value       = "..."
