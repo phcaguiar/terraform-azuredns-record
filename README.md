@@ -23,11 +23,13 @@ With all that defined, just call it in your configuration
 
 ```hcl
 module "dns_record" {
+
   source = "git@github.com:stone-payments/terraform-azuredns-record.git?ref=v1.0.0" # see tags for available versions
 
-  has_dns_a_record      = "..."
   zone_name             = "..."
   resource_group_name   = "..."
+
+  has_dns_a_record      = "..."
   dns_a_record_name     = "..."
   dns_a_record_value    = "..."
 
